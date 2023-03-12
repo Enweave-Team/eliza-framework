@@ -1,0 +1,25 @@
+{
+  "name": "eliza-framework",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev:server": "nodemon index.js --prefix backend",
+    "dev:client": "npm run start --prefix frontend",
+    "dev": "concurrently \"npm run dev:server\" \"npm run dev:client\""
+  },
+  "dependencies": {
+    "concurrently": "^7.6.0",
+    "nodemon": "^2.0.20"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vyacheslav-Starokozhko/eliza-framework.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Vyacheslav-Starokozhko/eliza-framework/issues"
+  },
+  "homepage": "https://github.com/Vyacheslav-Starokozhko/eliza-framework#readme"
+}

@@ -1,0 +1,5 @@
+{
+  "serverPort": 5000,
+  "secretKey" : "secret-key",
+  "dbUrl" : "mongodb://localhost:27017/works"
+}
